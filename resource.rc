@@ -1,0 +1,18 @@
+#include "resource.h"
+#include <windows.h>
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 200, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 10, "Segoe UI"
+BEGIN
+DEFPUSHBUTTON   "OK", IDOK, 75, 65, 50, 14
+LTEXT           "Текстовый редактор\nСучёк Елизавета 351003", -1, 10, 10, 180, 40
+END
+
+IDDS_SCREENSAVER DIALOGEX 0, 0, 400, 300
+STYLE WS_POPUP
+EXSTYLE WS_EX_TOPMOST
+FONT 10, "Segoe UI"
+BEGIN
+END
